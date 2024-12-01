@@ -8,7 +8,7 @@ const DoctorAbout = () => {
         <h3 className="text-[20px] leading-[30px] text-black font-semibold flex items-center gap-2">
           About of
           <span className="text-cyan-600 font-bold text-[24px] leading-9">
-            Atul Singh
+            Chirag Bisht
           </span>
         </h3>
         <p className="text--para">

@@ -22,7 +22,7 @@ const DoctorDetails = () => {
                   Surgeon
                 </span>
                 <h3 className="text-black text-[22px] leading-9 mt-3 font-bold">
-                  Atul Singh
+                  Chirag Bisht
                 </h3>
                 <div className="flex items-center gap-[6px]">
                   <span className="flex items-center gap-[6px] text-[14px] leading-5 lg:text-[16px] lg:leading-7 font-semibold text-black">

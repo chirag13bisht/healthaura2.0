@@ -87,7 +87,7 @@ const Footer = () => {
           <div>
             <img src={logo} alt="" />
             <p className="text-[16px] leading-7 font-[400] text-gray-600 mt-4">
-              Copyright © {year} Created with n by <a href="">Atul</a>
+              Copyright © {year} Created with n by <a href="">Chirag</a>
             </p>
             <div className="flex items-center gap-3 mt-4">
               {socialLinks.map((link, index) => (

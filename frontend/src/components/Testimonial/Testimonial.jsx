@@ -41,7 +41,7 @@ const Testimonial = () => {
               <img src={patientAvatar} alt="" />
               <div className="">
                 <h4 className="text-[18px] leading-[30px] font-semibold text-black">
-                  Atul Singh
+                  Chirag Bisht
                 </h4>
                 <div className="flex items-center gap-[2px]">
                   <HiStar className="text-yellow-600 w-[18px] h-5" />
@@ -64,7 +64,7 @@ const Testimonial = () => {
               <img src={patientAvatar} alt="" />
               <div className="">
                 <h4 className="text-[18px] leading-[30px] font-semibold text-black">
-                  Atul Singh
+                  Chirag Bisht
                 </h4>
                 <div className="flex items-center gap-[2px]">
                   <HiStar className="text-yellow-600 w-[18px] h-5" />
@@ -87,7 +87,7 @@ const Testimonial = () => {
               <img src={patientAvatar} alt="" />
               <div className="">
                 <h4 className="text-[18px] leading-[30px] font-semibold text-black">
-                  Atul Singh
+                  Chirag Bisht
                 </h4>
                 <div className="flex items-center gap-[2px]">
                   <HiStar className="text-yellow-600 w-[18px] h-5" />
@@ -110,7 +110,7 @@ const Testimonial = () => {
               <img src={patientAvatar} alt="" />
               <div className="">
                 <h4 className="text-[18px] leading-[30px] font-semibold text-black">
-                  Atul Singh
+                  Chirag Bisht
                 </h4>
                 <div className="flex items-center gap-[2px]">
                   <HiStar className="text-yellow-600 w-[18px] h-5" />

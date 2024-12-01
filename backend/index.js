@@ -21,17 +21,22 @@ app.get('/', (req, res)=>{
 
 mongoose.set('strictQuery', false)
 
-const connectedDB = async() => {
-    try{
-        await mongoose.connect(process.env.MONGO_URL, {
-            useNewUrlParser: true,
-            useUnifiedTopology: true,
-        })
-        console.log('Mongodb is connected')
-    } catch(err){
-        console.log('connection is failed')
-    }
-}
+
+
+const connectDB = async () => {
+  try {
+    await mongoose.connect(process.env.MONGO_URL, {
+      // No need for useNewUrlParser or useUnifiedTopology
+    });
+    console.log('MongoDB connected successfully');
+  } catch (err) {
+    console.error('MongoDB connection failed:', err.message);
+    process.exit(1); // Exit process with failure
+  }
+};
+
+
+
 
 app.use(express.json())
 app.use(cookieParser())
@@ -42,6 +47,6 @@ app.use('/api/v1/doctors', doctorRoute)
 app.use('/api/v1/reviews', reviewRoute)
 
 app.listen(port, ()=> {
-    connectedDB();
+    connectDB();
     console.log('Server is running on port: '+ port)
 })
